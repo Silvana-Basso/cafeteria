@@ -1,0 +1,110 @@
+
+.nuestro-menu{
+    background-image: url(../img/menu_arriba.svg), url(../img/menu_abajo.svg), linear-gradient(to top, #5e311e, #5e311e);
+    background-repeat: no-repeat;
+    background-position: center 50px, center 92%, 100%;
+    background-size: 100%;
+    padding: 150px 20px 200px 20px;
+
+}
+@media (min-width:768px){
+    .nuestro-menu{
+         padding: 150px 0 200px 0;
+        background-size: 100%;
+    }
+}
+@media (min-width:994px){
+    .nuestro-menu{
+         background-size: 50%, 50%, 100%;
+   }
+}
+
+@media (min-width:768px){
+    .grid-menu {
+   
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+    
+}
+}
+
+
+   .menu h3 {
+        color: var(--blanco);
+    }
+   .menu li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+   }
+    .menu li p {
+            color: var(--blanco);
+            font-size: 22px;
+            line-height: 1.5;
+            margin: 0 0 20px 0;
+    }
+ .menu li p  span {
+                display: block;
+                color: var(--secundario);
+            }
+        
+       .menu .precio {
+            font-size: 40px;
+            font-weight: 700;
+        }
+  
+
+        .contenido-menu {
+           
+            background-image: url(../img/cafe.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 80%;
+            background-size: 100%;
+            aspect-ratio: 3 / 6;
+           padding-bottom:2rem;
+        }
+       
+        .contenido-menu p{
+            font-family:var(--fuente_cursiva);
+            color:var(--primario);
+            line-height:2;
+            padding-left:1rem;
+        }
+        @media (min-width:768px){
+            .contenido-menu{
+                 aspect-ratio: 3 / 4;
+                  width:90%;
+                  margin:0 auto;
+                   margin-bottom:5rem;
+            } 
+        }
+        @media (min-width:994px){
+            .contenido-menu{
+                display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+          aspect-ratio: 16 / 6;
+                background-size: 40%;
+                background-position: bottom right;
+           } 
+        }   
+           
+        
+            .texto p {
+                
+                    font-size: 20px;
+                }
+           
+           .footer{
+            background-color:#5e311e;
+            width:100%;
+            margin:0 auto;
+            padding:0;
+           } 
+           .footer .contenido-footer{
+            width:85%;
+            margin:0 auto;
+            padding:5rem 2rem;
+           }
+        

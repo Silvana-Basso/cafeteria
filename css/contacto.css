@@ -1,0 +1,116 @@
+
+.contenedor-logo{
+    padding:0;
+}
+.contenido-principal{
+    background-color: white;
+  
+   padding:3.125rem 0.2rem;
+    margin:0 auto;
+    width:100%;
+
+    }
+    @media (min-width:768px){
+      .contenido-principal{
+    background-color: white;
+    padding:50px 20px;
+    margin:0 auto;
+    width:70rem;
+    position:relative;
+    top:-6.25rem;
+    
+    }  
+    }
+    .contenido-contacto{
+        width:100%;
+        padding:0;
+    }
+@media (min-width:768px){
+.contenido-contacto {
+    margin:0 auto;
+    margin:2.5rem;
+    width:90%;
+    overflow:hidden;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.25rem;
+    background-image: url(../img/granos_cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 40%;
+    
+    }
+}
+
+
+.formulario{
+    width:80%;
+    margin:0 auto;
+    overflow:hidden;
+}
+@media (min-width:768px){
+    .formulario{
+        width:100%;
+        margin:0 auto;
+        overflow:visible;
+    } 
+}
+  .formulario .campo {
+        margin-bottom: 1.25rem;
+         width:93%;
+  }
+  .formulario  .campo:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .formulario  .campo  label {
+            text-transform: uppercase;
+            display: block;
+            font-size: 1.375rem;
+            font-weight: 700;
+           
+        }
+
+        input:not([type="submit"]) {
+            width: 96%;
+            padding:  0.625rem;
+            border: 5px solid #5e311e;
+        } 
+        @media (min-width:768px){
+            input:not([type="submit"]) {
+            width: 100%;
+            padding:  0.625rem;
+            border: 5px solid #5e311e;
+        } 
+        }
+        select{
+            width: 106.5%;
+            padding:  0.625rem;
+            border: 5px solid #5e311e;
+        }
+
+        input[type="submit"] {
+            background-color: #5e311e;
+            width: 106.5%;
+            border: none;
+            padding:  0.625rem;
+            color: var(--blanco);
+            font-size: 1.375rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+            input[type="submit"]:hover {
+                cursor: pointer;
+            }
+        
+            .footer{
+                background-color:#5e311e;
+                width:100%;
+                padding:0;
+                margin:0 auto;
+               } 
+               .footer .contenido-footer{
+                width:84%;
+                margin:0 auto;
+                padding:3.125rem 1.25rem;
+               }
